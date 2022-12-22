@@ -4793,6 +4793,11 @@ html-webpack-plugin@^5.5.0:
     pretty-error "^4.0.0"
     tapable "^2.0.0"
 
+html5-qrcode@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/html5-qrcode/-/html5-qrcode-2.3.4.tgz#7e2b4575a23b10ff5e26d2bf147c8027c1ece389"
+  integrity sha512-VPZrOTG8XR9HmIAhSSiGtJVPErZxKy/DuGc9cPQLburCWZEbvxQGJP9y4K4P+8vdalLtYB/vM5YP1BdWQKZ8jQ==
+
 htmlparser2@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-6.1.0.tgz#c4d762b6c3371a05dbe65e94ae43a9f845fb8fb7"
@@ -5924,11 +5929,6 @@ jsonpointer@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/jsonpointer/-/jsonpointer-5.0.1.tgz#2110e0af0900fd37467b5907ecd13a7884a1b559"
   integrity sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==
-
-jsqr@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/jsqr/-/jsqr-1.4.0.tgz#8efb8d0a7cc6863cb6d95116b9069123ce9eb2d1"
-  integrity sha512-dxLob7q65Xg2DvstYkRpkYtmKm2sPJ9oFhrhmudT1dZvNFFTlroai3AWSpLey/w5vMcLBXRgOJsbXpdN9HzU/A==
 
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.3.2:
   version "3.3.3"
@@ -7418,6 +7418,11 @@ react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
+
+react-html5-qrcode-reader@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-html5-qrcode-reader/-/react-html5-qrcode-reader-1.1.1.tgz#8e1c6648d1b8817ff6b94a4cbcdc9c1128134598"
+  integrity sha512-7rdiwScjC544xYDYjL3J/VN/hNdSwvpjipe6VAicPB0zE6j5IKKVhXny0UzJawoun4ZZb82HwS7N9aYroKjh+w==
 
 react-is@^16.13.1:
   version "16.13.1"
