@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useRef } from 'react';
 
 function App() {
+
+  const videoRef = useRef();
+
+  useEffect(()=>{
+    init();
+  },[])
+
+  const init = async () => {
+    let media = await window.navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+    videoRef.current.srcObject = media;
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>QR Reader</h1>
+      <video ref={videoRef} autoPlay={true} height="100%" width="400px"></video>
+      <p>QR Value: {}</p>
     </div>
   );
 }
